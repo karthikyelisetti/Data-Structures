@@ -18,8 +18,9 @@ function binarySearch(arr, num) {
   return false;
 }
 
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-num = 2;
+// arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+arr = [1,2,7,8,22,28,41,58,67,71,94];
+num = 7;
 console.log(binarySearch(arr, num));
 
 
