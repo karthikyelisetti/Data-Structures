@@ -76,5 +76,5 @@ bst.insert(55);
 console.log(bst.root);
 
 bst.search(bst.root,90);
-console.log(bst.getMin())
-console.log(bst.getMax())
+console.log(bst.getMin());
+console.log(bst.getMax());
