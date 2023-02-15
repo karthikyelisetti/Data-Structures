@@ -68,7 +68,6 @@ class tree {
         })
         return arr;
     }
-
 }
 
 const bst = new tree();
