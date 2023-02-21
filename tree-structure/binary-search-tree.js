@@ -65,6 +65,14 @@ class BinarySearchTree {
         }
         return node.value;
     }
+
+    inorder (node) {
+        if (node != null) {
+            this.inorder(node.left);
+            console.log(node.value);
+            this.inorder(node.right);
+        }
+    }
 }
 
 const bst = new BinarySearchTree();
