@@ -20,7 +20,7 @@ class StackLinkedList {
         }else {
             temp = this.head;
             this.head = newNode;
-            this.head.next = temp;            
+            this.head.next = temp;   
         }
         this.length++;
         return this;

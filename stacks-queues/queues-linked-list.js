@@ -26,5 +26,19 @@ class QueuesLinkedList {
         return this;
     }
 
-    dequeue() {}
+    // dequeue() {
+    //     let current = this.head;
+    //     if (this.head == null) {
+    //         return null;
+    //     }else {
+    //         temp
+    //     }
+    // }
 }
+
+let q = new QueuesLinkedList();
+q.enqueue(10);
+q.enqueue(20);
+q.enqueue(30);
+q.enqueue(40);
+console.log(q);
