@@ -26,14 +26,33 @@ class QueuesLinkedList {
         return this;
     }
 
-    // dequeue() {
-    //     let current = this.head;
-    //     if (this.head == null) {
-    //         return null;
-    //     }else {
-    //         temp
-    //     }
-    // }
+    dequeue() {
+        let current = this.head;
+        if (this.head == null) {
+            console.log('Null');
+        }else {
+            let list = "";
+            while(current.next.next) {
+                current = current.next;
+            }
+            current.next = null;
+        }
+    }
+
+    printQueuell() {
+        let current = this.head;
+        if (this.head == null) {
+            console.log("Null");
+        }else {
+            let list = "";
+            while(current) {
+                list += current.value + " -> ";
+                current = current.next;
+            }
+        }
+    }
+
+
 }
 
 let q = new QueuesLinkedList();
